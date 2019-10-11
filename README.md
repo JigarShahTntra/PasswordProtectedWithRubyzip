@@ -1,6 +1,6 @@
-### Demo app for password protection zip using rubyzip
+## Demo app for password protection zip using rubyzip
 
-  ## Clone The Repository
+  ### Clone The Repository
   
      Create And Migrate Database.
      Start the rails server.
