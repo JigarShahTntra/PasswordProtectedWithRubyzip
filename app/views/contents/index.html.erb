@@ -1,0 +1,15 @@
+<% if @content.present? %>
+	<h1>My content</h1>
+
+	<ul>
+	  <% @content.each do |animal| %>
+	    <li>
+	      <strong>Name:</strong> <%= content.name %><br>
+	      <strong>Output file name:</strong> <%= content.out_name %><br>
+	    </li>
+	  <% end %>
+	</ul>
+<% else %>
+	<h1> NO ARCHIEVES AVAILABLE </h1>
+	<%= link_to 'Add!', new_content_path %>
+<% end %>
